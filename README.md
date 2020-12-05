@@ -1,5 +1,5 @@
 # vf-olimov-yan-1
-* Учебный репозиторий Олимова Яна
+* Учебный проект - «Design life kids»
 
-* Студент [Ян Олимов] [@OlimvJan]
-* Наставник [Вячеслав] [@Vyacheslav_Fedchenko]
+* Студент [Ян Олимов] [https://t.me/OlimvJan]
+* Наставник [Вячеслав] [https://t.me/Vyacheslav_Fedchenko]
