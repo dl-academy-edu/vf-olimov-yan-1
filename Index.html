@@ -1,9 +1,9 @@
 <!doctype html>
-<html lang="ru">
+<html lang="en">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>DL Academy</title>
     <link rel="stylesheet" href="normalize.css" />
     <link rel="stylesheet" href="common.css" />
     <link rel="stylesheet" href="./css/style.css" />
@@ -31,15 +31,15 @@
           </li>
         </ul>
       </nav>
-      <section class="search-wrapper">
+      <div class="search-wrapper">
         <button class="header__search">
           <img src="./image/search.png" alt="search-logo" class="search" />
         </button>
         <a href="#" class="header__contact open__sans">Contact us</a>
-      </section>
+      </div>
     </header>
     <main>
-      <section class="hero container">
+      <div class="hero container">
         <div class="hero__container">
           <div class="slider-wrapper">
             <span class="hero__slider"> 01 </span>
@@ -59,15 +59,15 @@
             </ul>
           </div>
           <img src="./image/monster.png" alt="monster" class="hero__monster"/>
-          <h1 class="hero__title montserrat">the oon noo collection</h1>
+          <h2 class="hero__title montserrat">the oon noo collection</h1>
           <p class="hero__slogan">Designed in Slovenia</p>
           <button class="hero__button open__sans">EXPLORE NOW</button>
           <p class="hero__delivery open__sans">
             Free (continental) USA shipping on all orders of $100 USD or more!
           </p>
         </div>
-      </section>
-      <section class="products container">
+      </div>
+      <div class="products container">
         <h1 class="products__name montserrat">Category Products</h1>
         <ul class="products__list">
           <li class="products__item">
@@ -105,8 +105,8 @@
           Modern finds for the modern home. Curated goods by unique designers
           around the world from fashion to furniture for kids and adults.
         </p>
-      </section>
-      <section class="delivery">
+      </div>
+      <div class="delivery">
         <img src="./image/woman.png" alt="woman" class="delivery-img" />
         <h2 class="delivery__content montserrat">Delivery</h2>
         <ul class="delivery__list">
@@ -120,7 +120,7 @@
             <a href="#" class="delivery__item">Credit</a>
           </li>
         </ul>
-        <section class="delivery__desc">
+        <div class="delivery__desc">
           <h2 class="visually-hidden">delivery</h2>
           <p class="delivery__anytx open__sans">
             Some days i feel like i've been working on dlk my entire life and
@@ -132,10 +132,10 @@
             husband, dlk has now become a truly happy place for me and i have you
             and all of the beautiful designers that we work with to thank!
           </p>
-        </section>
+        </div>
         <a href="#" class="delivery-button">LEARN MORE</a>
-      </section>
-      <section class="sponsor item-list">
+      </div>
+      <div class="sponsor item-list">
         <ul class="sponsor-list">
           <li class="sponsor-list-item">
             <img src="./image/mail.ru.png" alt="mail" class="sponsor-img" />
@@ -150,8 +150,8 @@
             <img src="./image/owox.png" alt="owox" class="sponsor-img" />
           </li>
         </ul>
-      </section>
-      <section class="design hidden-title">
+      </div>
+      <div class="design hidden-title">
         <div class="design__DLK">
           <h2 class="design__slogan montserrat">Design Life Kids</h2>
           <p class="design__slg">About Us</p>
@@ -171,7 +171,7 @@
           </p>
           <img src="./image/map.png" alt="map" class="contacts-img" />
         </div>
-      </section>
+      </div>
     </main>
     <footer class="footer">
       <div class="container">
@@ -260,7 +260,7 @@
             </li>
           </ul>
         </div>
-        <section class="footer__raiting">
+        <div class="footer__raiting">
           <p class="footer__company">Company Rating</p>
           <ul>
             <li class="footer__star">
@@ -283,8 +283,34 @@
             Copyright © 2018 Dlk • Design Life Kids
           </p>
           <a class="footer__link open__sans" href="https://directline.digital/">Web Design — Direct Line Development</a>
-        </section>
+        </div>
       </div>
     </footer>
+    <form class="popup" action="https://echo.htmlacademy.ru" method="post">
+      <div class="field">
+          <label for="input__name" class="label__popup">Name</label>
+          <input type="text" id="input__name" class="input__popup" placeholder="">
+      </div>
+      <div class="field__wrapper">
+          <div class="field">
+              <label for="input__phone" class="label__popup">Phone</label>
+              <input type="text" id="input__phone" class="input__popup" placeholder="">
+          </div>
+          <div class="field">
+              <label for="input__email" class="label__popup">Email</label>
+              <input type="email" id="input__email" class="input__popup" placeholder="">
+          </div>
+      </div>
+      <div class="field">
+          <label for="input__text" class="label__popup">Message</label>
+          <textarea class="input__popup" id="input__text" cols="30" rows="10"></textarea>
+      </div>
+      <div class="checkbox">
+          <input id="check-receipt" type="checkbox" class="checkbox__input visually-hidden" value="Receipt">
+          <label for="check-receipt" class="checkbox__label">By clicking on the button, you consent to the processing of your personal data</label>
+      </div>
+      <button class="btn disabled__btn" type="submit" disabled>submit</button>
+      <button class="popup__close__btn" type="button" aria-label="Close button"></button>
+  </form>
   </body>
 </html>
