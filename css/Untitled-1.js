@@ -1,1 +1,0 @@
-Math.max() > Math.min()
