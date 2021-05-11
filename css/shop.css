@@ -396,3 +396,7 @@
     text-align: center;
     color: #1E0606;
 }
+.map {
+    position: absolute;
+    top: 126px;
+}
